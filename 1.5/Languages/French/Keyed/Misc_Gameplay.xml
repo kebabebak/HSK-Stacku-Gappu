@@ -4,5 +4,5 @@
   <MultistackStorageTooltip>Autoriser plusieurs piles par case.</MultistackStorageTooltip>
   <SimilarStackLimit>Limite de piles similaires x{0}</SimilarStackLimit>
   <SimilarStackLimitDisabled>Aucune limite de piles similaires</SimilarStackLimitDisabled>
-  <SimilarStackLimitDefault>Appliquer à tout le stockage</SimilarStackLimitDefault>
+  <SimilarStackLimitDefault>Limite globale du stockage</SimilarStackLimitDefault>
 </LanguageData>

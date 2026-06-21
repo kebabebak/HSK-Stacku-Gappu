@@ -4,5 +4,5 @@
   <MultistackStorageTooltip>允许同一格内多个堆叠。</MultistackStorageTooltip>
   <SimilarStackLimit>相似堆叠限制 x{0}</SimilarStackLimit>
   <SimilarStackLimitDisabled>不限制相似堆叠</SimilarStackLimitDisabled>
-  <SimilarStackLimitDefault>应用于整个储存区</SimilarStackLimitDefault>
+  <SimilarStackLimitDefault>仓库总限额</SimilarStackLimitDefault>
 </LanguageData>

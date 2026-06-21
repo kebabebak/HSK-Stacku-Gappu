@@ -4,5 +4,5 @@
   <MultistackStorageTooltip>Allow multiple stacks in one cell.\nSimilar items may still be restricted when limits apply.</MultistackStorageTooltip>
   <SimilarStackLimit>Similar stack limit x{0}</SimilarStackLimit>
   <SimilarStackLimitDisabled>No similar stack limit</SimilarStackLimitDisabled>
-  <SimilarStackLimitDefault>Apply to entire storage</SimilarStackLimitDefault>
+  <SimilarStackLimitDefault>Storage-wide limit</SimilarStackLimitDefault>
 </LanguageData>
