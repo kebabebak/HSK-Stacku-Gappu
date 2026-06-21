@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>启用强制弹出物品</EnableHardEjection>
+  <EnableHardEjectionTooltip>超出堆叠限制的物品将自动从储存区弹出到地面。</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>储存堆叠限制滑块使用非线性刻度。若堆叠上限很大，请提高此值（默认 3.0）。</DisplayLogFactorInfo>
+  <DisplayLogFactor>刻度修正</DisplayLogFactor>
+  <DisplayLogFactorExample>刻度修正预览：</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>（此滑块不影响游戏）</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>运行时堆叠大小变更后重新计算</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>使用百分比而非物品数量</PercentageMode>
+  <EnableSimilarStackLimits>启用相似堆叠限制</EnableSimilarStackLimits>
+  <EnableLogging>启用日志记录</EnableLogging>
+
+  <MultistackDisabled>禁用多重堆叠</MultistackDisabled>
+  <MultistackModeDisabledTooltip>每个地图格仅允许一个堆叠。</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>全局启用多重堆叠</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>所有储存区均允许多个堆叠占用同一格。</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>按储存区设置多重堆叠</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>每个储存区可单独允许或禁止多重堆叠。</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>滑块最大值：</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>已修改限制的高亮颜色：</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>选择用于标记非默认堆叠限制的颜色。</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>多重堆叠决定一个地图格可容纳多少个独立堆叠。\n不影响无限制储存区。</MultistackInfo>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <GappuStackLimit>Stapelbegrenzung</GappuStackLimit>
+  <MultistackStorageTooltip>Mehrere Stapel pro Zelle erlauben.</MultistackStorageTooltip>
+  <SimilarStackLimit>Limit ähnlicher Stapel x{0}</SimilarStackLimit>
+  <SimilarStackLimitDisabled>Kein Limit für ähnliche Stapel</SimilarStackLimitDisabled>
+  <SimilarStackLimitDefault>Auf gesamtes Lager anwenden</SimilarStackLimitDefault>
+</LanguageData>

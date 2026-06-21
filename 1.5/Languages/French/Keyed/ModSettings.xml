@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>Activer l'éjection forcée</EnableHardEjection>
+  <EnableHardEjectionTooltip>Les objets dépassant les limites configurées sont automatiquement éjectés du stockage.</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>Le curseur de limite de pile utilise une échelle non linéaire. Augmentez la valeur pour de très grandes piles (par défaut : 3.0).</DisplayLogFactorInfo>
+  <DisplayLogFactor>Modificateur d'échelle</DisplayLogFactor>
+  <DisplayLogFactorExample>Aperçu du modificateur :</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(ce curseur n'affecte pas le gameplay)</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>Recalculer les limites après modification des piles</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>Utiliser des pourcentages au lieu du nombre d'objets</PercentageMode>
+  <EnableSimilarStackLimits>Activer la limite de piles similaires</EnableSimilarStackLimits>
+  <EnableLogging>Activer la journalisation</EnableLogging>
+
+  <MultistackDisabled>Multipile désactivé</MultistackDisabled>
+  <MultistackModeDisabledTooltip>Une seule pile par case de carte.</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>Multipile activé globalement</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>Autoriser plusieurs piles par case dans tous les stockages.</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>Multipile par stockage</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>Chaque stockage peut autoriser ou interdire plusieurs piles par case.</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>Valeur maximale du curseur :</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>Couleur de surbrillance des limites modifiées :</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>Couleur utilisée pour les limites différentes des valeurs par défaut.</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>Le multipile définit combien de piles distinctes peuvent occuper une case.\nNe s'applique pas aux stockages illimités.</MultistackInfo>
+</LanguageData>

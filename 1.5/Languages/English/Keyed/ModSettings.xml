@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>Enable forced item ejection</EnableHardEjection>
+  <EnableHardEjectionTooltip>When enabled, items exceeding the configured stack limits are automatically ejected from storage onto the floor.</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>The storage stack limit slider uses a non-linear scale for easier adjustment. Increase this value if your modded stacks can hold thousands of items (default: 3.0).</DisplayLogFactorInfo>
+  <DisplayLogFactor>Scale modifier</DisplayLogFactor>
+  <DisplayLogFactorExample>Preview of the scale modifier:</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(this preview slider does not affect gameplay)</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>Recalculate stack limits after runtime stack size changes</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>Use percentages instead of item counts</PercentageMode>
+  <EnableSimilarStackLimits>Enable per-item similar stack limits</EnableSimilarStackLimits>
+  <EnableLogging>Enable logging</EnableLogging>
+
+  <MultistackDisabled>Multistack disabled</MultistackDisabled>
+  <MultistackModeDisabledTooltip>Only one stack may occupy a single map cell.</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>Multistack enabled globally</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>Allow multiple stacks per cell in all storages without per-storage configuration.</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>Multistack per storage</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>Each storage may individually allow or disallow multiple stacks per cell.</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>Maximum slider value:</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>Modified limit highlight color:</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>Select the color used to mark storage limits changed from default values.</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>Multistack determines how many separate item stacks may occupy one map cell. Custom storage buildings may allow more than one stack per cell.\nThis setting does not affect unrestricted storage. Similar items may still be restricted from multistacking when limits apply.</MultistackInfo>
+</LanguageData>

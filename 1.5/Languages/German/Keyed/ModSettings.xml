@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>Erzwungenes Auswerfen aktivieren</EnableHardEjection>
+  <EnableHardEjectionTooltip>Überschüssige Gegenstände werden automatisch aus dem Lager auf den Boden geworfen.</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>Der Stapelbegrenzungs-Schieberegler verwendet eine nichtlineare Skala. Erhöhen Sie den Wert bei sehr großen Stapelgrößen (Standard: 3.0).</DisplayLogFactorInfo>
+  <DisplayLogFactor>Skalenmodifikator</DisplayLogFactor>
+  <DisplayLogFactorExample>Vorschau des Skalenmodifikators:</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(dieser Schieberegler hat keinen Spieleffekt)</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>Stapelgrenzen nach Laufzeitänderungen neu berechnen</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>Prozente statt Stückzahl verwenden</PercentageMode>
+  <EnableSimilarStackLimits>Limit für ähnliche Stapel aktivieren</EnableSimilarStackLimits>
+  <EnableLogging>Protokollierung aktivieren</EnableLogging>
+
+  <MultistackDisabled>Multistapel deaktiviert</MultistackDisabled>
+  <MultistackModeDisabledTooltip>Nur ein Stapel pro Karte-Zelle.</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>Multistapel global aktiviert</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>Mehrere Stapel pro Zelle in allen Lagern erlauben.</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>Multistapel pro Lager</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>Jedes Lager kann Multistapel einzeln erlauben oder verbieten.</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>Maximaler Schiebereglerwert:</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>Farbe für geänderte Limits:</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>Farbe für von Standardwerten abweichende Stapelbegrenzungen.</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>Multistapel legt fest, wie viele getrennte Stapel in einer Karte-Zelle liegen dürfen.\nGilt nicht für uneingeschränkte Lager.</MultistackInfo>
+</LanguageData>

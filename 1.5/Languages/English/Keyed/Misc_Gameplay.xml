@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <GappuStackLimit>Stack limit</GappuStackLimit>
+  <MultistackStorageTooltip>Allow multiple stacks in one cell.\nSimilar items may still be restricted when limits apply.</MultistackStorageTooltip>
+  <SimilarStackLimit>Similar stack limit x{0}</SimilarStackLimit>
+  <SimilarStackLimitDisabled>No similar stack limit</SimilarStackLimitDisabled>
+  <SimilarStackLimitDefault>Apply to entire storage</SimilarStackLimitDefault>
+</LanguageData>

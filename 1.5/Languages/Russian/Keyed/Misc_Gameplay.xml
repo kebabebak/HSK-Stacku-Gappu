@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <GappuStackLimit>Ограничение стопки</GappuStackLimit>
+  <MultistackStorageTooltip>Разрешить несколько стопок в одной клетке.\nОдинаковые предметы могут ограничиваться правилами лимитов.</MultistackStorageTooltip>
+  <SimilarStackLimit>Лимит похожих стопок x{0}</SimilarStackLimit>
+  <SimilarStackLimitDisabled>Без лимита похожих стопок</SimilarStackLimitDisabled>
+  <SimilarStackLimitDefault>Применить ко всему хранилищу</SimilarStackLimitDefault>
+</LanguageData>

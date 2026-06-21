@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>Разрешить принудительное извлечение предметов</EnableHardEjection>
+  <EnableHardEjectionTooltip>При включении предметы, превышающие заданные ограничения стопок, будут автоматически извлекаться из хранилища на пол.</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>Ползунок ограничения стопок использует нелинейную шкалу для удобной настройки. Увеличьте значение, если модифицированные стопки могут хранить тысячи предметов (по умолчанию: 3.0).</DisplayLogFactorInfo>
+  <DisplayLogFactor>Модификатор шкалы</DisplayLogFactor>
+  <DisplayLogFactorExample>Предварительный просмотр модификатора:</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(данный ползунок не влияет на игровой процесс)</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>Пересчитать лимиты после изменения размера стопок</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>Использовать проценты вместо количества предметов</PercentageMode>
+  <EnableSimilarStackLimits>Включить ограничение похожих стопок</EnableSimilarStackLimits>
+  <EnableLogging>Включить логирование</EnableLogging>
+
+  <MultistackDisabled>Мультистаки отключены</MultistackDisabled>
+  <MultistackModeDisabledTooltip>В одной клетке карты допускается только одна стопка.</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>Мультистаки включены глобально</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>Разрешить несколько стопок в одной клетке для всех хранилищ без отдельной настройки.</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>Мультистаки настраиваются отдельно</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>Для каждого хранилища можно отдельно разрешить или запретить несколько стопок в одной клетке.</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>Максимальное значение ползунка:</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>Цвет выделения изменённых лимитов:</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>Выберите цвет, которым будут отмечены лимиты, изменённые относительно стандартных значений.</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>Мультистак определяет, сколько отдельных стопок может находиться в одной клетке карты. Пользовательские хранилища могут поддерживать более одной стопки на клетку. Не влияет на неограниченные хранилища. Одинаковые предметы могут по-прежнему ограничиваться правилами лимитов.</MultistackInfo>
+</LanguageData>
