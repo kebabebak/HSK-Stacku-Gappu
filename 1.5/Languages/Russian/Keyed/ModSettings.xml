@@ -16,6 +16,12 @@
   <EnableSimilarStackLimits>Включить ограничение похожих стопок</EnableSimilarStackLimits>
   <EnableLogging>Включить логирование</EnableLogging>
 
+  <ZoneWideCascadeEject>Сброс при общем лимите склада</ZoneWideCascadeEject>
+  <ZoneWideCascadeEjectDisabledTooltip>Отключить принудительный сброс лишних предметов при изменении общего лимита склада (режим «Общий лимит склада»). Крест всегда означает выключено.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Режим 1 — Поклеточный: лишнее сбрасывается при обходе клеток склада в фиксированном порядке, пока для каждого типа предмета не будет достигнут общий лимит. Считаются все штуки на складе, включая предметы со стаком 1 (оружие, одежда).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Режим 2 — Сначала то, чего больше: перед сбросом один раз определяется, каких предметов на складе больше всего; сначала полностью обрабатывается тип с наибольшим количеством, затем со вторым по количеству и т.д. Без повторной пересортировки во время сброса.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Режим 3 — Сначала то, чего меньше: сначала выбрасываются предметы со стаком 1 (оружие, одежда и т.п.), затем стакающиеся ресурсы — от типа с наименьшим количеством на складе к наибольшему; внутри типа — сначала самые маленькие стаки.</ZoneWideCascadeEjectMode3Tooltip>
+
   <MultistackDisabled>Мультистаки отключены</MultistackDisabled>
   <MultistackModeDisabledTooltip>В одной клетке карты допускается только одна стопка.</MultistackModeDisabledTooltip>
 

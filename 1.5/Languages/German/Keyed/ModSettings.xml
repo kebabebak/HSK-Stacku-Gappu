@@ -16,6 +16,12 @@
   <EnableSimilarStackLimits>Limit für ähnliche Stapel aktivieren</EnableSimilarStackLimits>
   <EnableLogging>Protokollierung aktivieren</EnableLogging>
 
+  <ZoneWideCascadeEject>Auswurf bei Gesamtlagerlimit</ZoneWideCascadeEject>
+  <ZoneWideCascadeEjectDisabledTooltip>Erzwungenen Auswurf bei Änderung des Gesamtlagerlimits deaktivieren (Modus Gesamtlagerlimit). Das Kreuz bedeutet immer Aus.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Modus 1 — Zellenreihenfolge: Überschuss wird beim Durchlaufen der Lagerzellen in fester Reihenfolge ausgeworfen, bis jeder Gegenstandstyp das Zonenlimit erreicht. Alle Stückzahlen zählen, auch bei Stapelgröße 1 (Waffen, Kleidung).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Modus 2 — Zuerst die größte Menge: Einmalige Analyse, welche Typen am meisten lagern; zuerst der größte Typ, dann der zweitgrößte usw. Keine erneute Sortierung während des Auswurfs.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Modus 3 — Zuerst die kleinste Menge: wie Modus 2, aber von der kleinsten zur größten Gesamtmenge. Nützlich, wenn seltene Stapel zuerst das Lager verlassen sollen.</ZoneWideCascadeEjectMode3Tooltip>
+
   <MultistackDisabled>Multistapel deaktiviert</MultistackDisabled>
   <MultistackModeDisabledTooltip>Nur ein Stapel pro Karte-Zelle.</MultistackModeDisabledTooltip>
 

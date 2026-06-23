@@ -16,6 +16,12 @@
   <EnableSimilarStackLimits>Activer la limite de piles similaires</EnableSimilarStackLimits>
   <EnableLogging>Activer la journalisation</EnableLogging>
 
+  <ZoneWideCascadeEject>Éjection au limite globale du stockage</ZoneWideCascadeEject>
+  <ZoneWideCascadeEjectDisabledTooltip>Désactiver l'éjection forcée lors du changement de la limite globale du stockage (mode limite globale). La croix signifie toujours désactivé.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Mode 1 — Par case : l'excédent est éjecté en parcourant les cases du stockage dans un ordre fixe jusqu'à respecter la limite de zone pour chaque type. Toutes les unités comptent, y compris les objets à pile de 1 (armes, vêtements).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Mode 2 — Le plus abondant d'abord : analyse unique des totaux ; le type le plus nombreux est traité en premier, puis le second, etc. Pas de nouveau tri pendant l'éjection.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Mode 3 — Le moins abondant d'abord : comme le mode 2, mais du plus petit total au plus grand. Utile pour retirer d'abord les piles rares.</ZoneWideCascadeEjectMode3Tooltip>
+
   <MultistackDisabled>Multipile désactivé</MultistackDisabled>
   <MultistackModeDisabledTooltip>Une seule pile par case de carte.</MultistackModeDisabledTooltip>
 

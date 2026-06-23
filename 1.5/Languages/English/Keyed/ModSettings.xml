@@ -16,6 +16,12 @@
   <EnableSimilarStackLimits>Enable per-item similar stack limits</EnableSimilarStackLimits>
   <EnableLogging>Enable logging</EnableLogging>
 
+  <ZoneWideCascadeEject>Eject on storage-wide limit</ZoneWideCascadeEject>
+  <ZoneWideCascadeEjectDisabledTooltip>Disable forced ejection when the storage-wide limit changes (Storage-wide limit mode). The cross always means off.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Mode 1 — Cell order: excess is ejected while walking storage cells in a fixed order until each item type meets the zone limit. All units are counted, including stack size 1 items (weapons, apparel).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Mode 2 — Most items first: a one-time scan finds which types have the highest totals; those types are ejected first, then the second highest, and so on. No re-sorting during ejection.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Mode 3 — Least items first: ejects stack size 1 item types first (weapons, apparel), then stackable resources from lowest zone total to highest; within a type, smallest stacks first.</ZoneWideCascadeEjectMode3Tooltip>
+
   <MultistackDisabled>Multistack disabled</MultistackDisabled>
   <MultistackModeDisabledTooltip>Only one stack may occupy a single map cell.</MultistackModeDisabledTooltip>
 
