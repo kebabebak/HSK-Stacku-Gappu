@@ -17,10 +17,10 @@
   <EnableLogging>Enable logging</EnableLogging>
 
   <ZoneWideCascadeEject>Eject on storage-wide limit</ZoneWideCascadeEject>
-  <ZoneWideCascadeEjectDisabledTooltip>Disable forced ejection when the storage-wide limit changes (Storage-wide limit mode). The cross always means off.</ZoneWideCascadeEjectDisabledTooltip>
-  <ZoneWideCascadeEjectMode1Tooltip>Mode 1 — Cell order: excess is ejected while walking storage cells in a fixed order until each item type meets the zone limit. All units are counted, including stack size 1 items (weapons, apparel).</ZoneWideCascadeEjectMode1Tooltip>
-  <ZoneWideCascadeEjectMode2Tooltip>Mode 2 — Most items first: a one-time scan finds which types have the highest totals; those types are ejected first, then the second highest, and so on. No re-sorting during ejection.</ZoneWideCascadeEjectMode2Tooltip>
-  <ZoneWideCascadeEjectMode3Tooltip>Mode 3 — Least items first: ejects stack size 1 item types first (weapons, apparel), then stackable resources from lowest zone total to highest; within a type, smallest stacks first.</ZoneWideCascadeEjectMode3Tooltip>
+  <ZoneWideCascadeEjectDisabledTooltip>Disable forced ejection when the storage-wide limit changes.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Mode 1 — Cell order: excess is ejected while walking storage cells in a fixed order until each item type meets the zone limit. All units are counted, including single items with max stack size equal to 1 (weapons, apparel).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Mode 2 — Most items first: a one-time scan finds which types have the highest totals; the type with the largest amount is fully processed first, then the second largest, and so on. No re-sorting during ejection.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Mode 3 — Least items first: single items with max stack size equal to 1 are ejected first (weapons, apparel, etc.), then stackable resources — from the type with the lowest zone total to the highest; within a type, smallest stacks first.</ZoneWideCascadeEjectMode3Tooltip>
 
   <MultistackDisabled>Multistack disabled</MultistackDisabled>
   <MultistackModeDisabledTooltip>Only one stack may occupy a single map cell.</MultistackModeDisabledTooltip>

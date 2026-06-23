@@ -17,10 +17,10 @@
   <EnableLogging>启用日志记录</EnableLogging>
 
   <ZoneWideCascadeEject>仓库总限额时弹出</ZoneWideCascadeEject>
-  <ZoneWideCascadeEjectDisabledTooltip>禁用更改仓库总限额时的强制弹出（仓库总限额模式）。叉号始终表示关闭。</ZoneWideCascadeEjectDisabledTooltip>
-  <ZoneWideCascadeEjectMode1Tooltip>模式 1 — 按格子顺序：按固定顺序遍历储存区格子并弹出多余物品，直到各物品类型达到区域限额。统计全部数量，包括堆叠为 1 的物品（武器、衣物）。</ZoneWideCascadeEjectMode1Tooltip>
-  <ZoneWideCascadeEjectMode2Tooltip>模式 2 — 数量最多优先：一次性分析各类型总量，先处理最多的类型，再处理次多，依此类推。弹出过程中不重新排序。</ZoneWideCascadeEjectMode2Tooltip>
-  <ZoneWideCascadeEjectMode3Tooltip>模式 3 — 数量最少优先：与模式 2 相同，但从总量最少到最多。适合先移出稀有物品。</ZoneWideCascadeEjectMode3Tooltip>
+  <ZoneWideCascadeEjectDisabledTooltip>禁用更改仓库总限额时的强制弹出。</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>模式 1 — 按格子顺序：按固定顺序遍历储存区格子并弹出多余物品，直到各物品类型达到区域限额。统计全部数量，包括最大堆叠等于 1 的单件物品（武器、衣物）。</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>模式 2 — 数量最多优先：弹出前一次性确定储存区中数量最多的物品类型；先完整处理数量最多的类型，再处理第二多的类型，依此类推。弹出过程中不重新排序。</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>模式 3 — 数量最少优先：先弹出最大堆叠等于 1 的单件物品（武器、衣物等），再弹出可堆叠资源——从区域内该类型总量最少到最多；同一类型内先弹出最小的堆叠。</ZoneWideCascadeEjectMode3Tooltip>
 
   <MultistackDisabled>禁用多重堆叠</MultistackDisabled>
   <MultistackModeDisabledTooltip>每个地图格仅允许一个堆叠。</MultistackModeDisabledTooltip>
