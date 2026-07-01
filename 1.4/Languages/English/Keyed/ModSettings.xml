@@ -22,6 +22,10 @@
   <ZoneWideCascadeEjectMode2Tooltip>Mode 2 — Most items first: a one-time scan finds which types have the highest totals; the type with the largest amount is fully processed first, then the second largest, and so on. No re-sorting during ejection.</ZoneWideCascadeEjectMode2Tooltip>
   <ZoneWideCascadeEjectMode3Tooltip>Mode 3 — Least items first: single items with max stack size equal to 1 are ejected first (weapons, apparel, etc.), then stackable resources — from the type with the lowest zone total to the highest; within a type, smallest stacks first.</ZoneWideCascadeEjectMode3Tooltip>
 
+  <DelayedZoneOverflowEject>Delayed stockpile overflow eject</DelayedZoneOverflowEject>
+  <DelayedZoneOverflowEjectDisabledTooltip>Disable delayed cleanup after a pawn could not place all carried items into a limited stockpile zone.</DelayedZoneOverflowEjectDisabledTooltip>
+  <DelayedZoneOverflowEjectModeTooltip>Run delayed cleanup {HOURS} game hour(s) after a limited stockpile zone rejects part of a carried stack.</DelayedZoneOverflowEjectModeTooltip>
+
   <MultistackDisabled>Multistack disabled</MultistackDisabled>
   <MultistackModeDisabledTooltip>Only one stack may occupy a single map cell.</MultistackModeDisabledTooltip>
 

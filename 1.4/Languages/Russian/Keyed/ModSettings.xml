@@ -22,6 +22,10 @@
   <ZoneWideCascadeEjectMode2Tooltip>Режим 2 — Сначала то, чего больше: перед сбросом один раз определяется, каких предметов на складе больше всего; сначала полностью обрабатывается тип с наибольшим количеством, затем со вторым по количеству и т.д. Без повторной пересортировки во время сброса.</ZoneWideCascadeEjectMode2Tooltip>
   <ZoneWideCascadeEjectMode3Tooltip>Режим 3 — Сначала то, чего меньше: сначала выбрасываются единичные предметы и с максимальным стаком равным 1 (оружие, одежда и т.п.), затем стакающиеся ресурсы — от типа с наименьшим количеством на складе к наибольшему; внутри типа — сначала самые маленькие стаки.</ZoneWideCascadeEjectMode3Tooltip>
 
+  <DelayedZoneOverflowEject>Отложенный сброс переполнения склада</DelayedZoneOverflowEject>
+  <DelayedZoneOverflowEjectDisabledTooltip>Отключить отложенную очистку после того, как пешка не смогла положить весь переносимый стак в область-склад с лимитом.</DelayedZoneOverflowEjectDisabledTooltip>
+  <DelayedZoneOverflowEjectModeTooltip>Запустить отложенную очистку через {HOURS} игровых часов после того, как область-склад с лимитом отклонила часть переносимого стака.</DelayedZoneOverflowEjectModeTooltip>
+
   <MultistackDisabled>Мультистаки отключены</MultistackDisabled>
   <MultistackModeDisabledTooltip>В одной клетке карты допускается только одна стопка.</MultistackModeDisabledTooltip>
 
