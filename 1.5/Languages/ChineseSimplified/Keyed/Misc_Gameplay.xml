@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <GappuStackLimit>堆叠限制</GappuStackLimit>
+  <MultistackStorageTooltip>允许同一格内多个堆叠。\n相同物品仍可能受堆叠限制规则约束。</MultistackStorageTooltip>
+  <SimilarStackLimit>相似堆叠限制 x{0}</SimilarStackLimit>
+  <SimilarStackLimitDisabled>不限制相似堆叠</SimilarStackLimitDisabled>
+  <SimilarStackLimitDefault>仓库总限额</SimilarStackLimitDefault>
+</LanguageData>

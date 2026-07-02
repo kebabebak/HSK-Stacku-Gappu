@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>Activer l'éjection forcée</EnableHardEjection>
+  <EnableHardEjectionTooltip>Lorsqu'activé, les objets dépassant les limites de pile configurées sont automatiquement éjectés du stockage sur le sol.</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>Le curseur de limite de pile utilise une échelle non linéaire pour un réglage plus facile. Augmentez cette valeur si vos piles modifiées peuvent contenir des milliers d'objets (par défaut : 3.0).</DisplayLogFactorInfo>
+  <DisplayLogFactor>Modificateur d'échelle</DisplayLogFactor>
+  <DisplayLogFactorExample>Aperçu du modificateur :</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(ce curseur n'affecte pas le gameplay)</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>Recalculer les limites après modification des piles</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>Utiliser des pourcentages au lieu du nombre d'objets</PercentageMode>
+  <EnableSimilarStackLimits>Activer la limite de piles similaires</EnableSimilarStackLimits>
+  <EnableLogging>Activer la journalisation</EnableLogging>
+
+  <ZoneWideCascadeEject>Éjection à la limite globale du stockage</ZoneWideCascadeEject>
+  <ZoneWideCascadeEjectDisabledTooltip>Désactiver l'éjection forcée lors du changement de la limite globale du stockage.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Mode 1 — Par case : l'excédent est éjecté en parcourant les cases du stockage dans un ordre fixe jusqu'à respecter la limite de zone pour chaque type. Toutes les unités comptent, y compris les objets unitaires à pile maximale égale à 1 (armes, vêtements).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Mode 2 — Le plus abondant d'abord : avant l'éjection, analyse unique pour déterminer quels objets sont les plus nombreux dans le stockage ; le type le plus abondant est entièrement traité en premier, puis le second, etc. Pas de nouveau tri pendant l'éjection.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Mode 3 — Le moins abondant d'abord : d'abord les objets unitaires à pile maximale égale à 1 (armes, vêtements, etc.), puis les ressources empilables — du type le moins abondant au plus abondant dans la zone ; au sein d'un type, les plus petites piles d'abord.</ZoneWideCascadeEjectMode3Tooltip>
+
+  <DelayedZoneOverflowEject>Éjection différée du dépassement de stockage</DelayedZoneOverflowEject>
+  <DelayedZoneOverflowEjectDisabledTooltip>Désactiver le nettoyage différé après qu'un colon n'a pas pu placer toute la pile transportée dans une zone de stockage ou un bâtiment de stockage limité.</DelayedZoneOverflowEjectDisabledTooltip>
+  <DelayedZoneOverflowEjectModeTooltip>Lancer un nettoyage différé {HOURS} heure(s) de jeu après qu'une zone de stockage ou un bâtiment de stockage limité a refusé une partie de la pile transportée.</DelayedZoneOverflowEjectModeTooltip>
+
+  <MultistackDisabled>Multipile désactivé</MultistackDisabled>
+  <MultistackModeDisabledTooltip>Une seule pile par case de carte.</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>Multipile activé globalement</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>Autoriser plusieurs piles par case dans tous les stockages sans configuration individuelle.</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>Multipile configuré séparément</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>Chaque stockage peut autoriser ou interdire plusieurs piles par case.</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>Valeur maximale du curseur :</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>Couleur de surbrillance des limites modifiées :</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>Sélectionnez la couleur utilisée pour marquer les limites modifiées par rapport aux valeurs par défaut.</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>Le multipile définit combien de piles distinctes peuvent occuper une case de carte. Les bâtiments de stockage personnalisés peuvent autoriser plus d'une pile par case. Ne s'applique pas aux stockages illimités. Les objets identiques peuvent toujours être limités par les règles de limites.</MultistackInfo>
+</LanguageData>

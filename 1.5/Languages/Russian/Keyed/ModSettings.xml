@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>Разрешить принудительное извлечение предметов</EnableHardEjection>
+  <EnableHardEjectionTooltip>При включении предметы, превышающие заданные ограничения стопок, будут автоматически извлекаться из хранилища на пол.</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>Ползунок ограничения стопок использует нелинейную шкалу для удобной настройки. Увеличьте значение, если модифицированные стопки могут хранить тысячи предметов (по умолчанию: 3.0).</DisplayLogFactorInfo>
+  <DisplayLogFactor>Модификатор шкалы</DisplayLogFactor>
+  <DisplayLogFactorExample>Предварительный просмотр модификатора:</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(данный ползунок не влияет на игровой процесс)</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>Пересчитать лимиты после изменения размера стопок</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>Использовать проценты вместо количества предметов</PercentageMode>
+  <EnableSimilarStackLimits>Включить ограничение похожих стопок</EnableSimilarStackLimits>
+  <EnableLogging>Включить логирование</EnableLogging>
+
+  <ZoneWideCascadeEject>Сброс при общем лимите склада</ZoneWideCascadeEject>
+  <ZoneWideCascadeEjectDisabledTooltip>Отключить принудительный сброс лишних предметов при изменении общего лимита склада.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Режим 1 — Поклеточный: лишнее сбрасывается при обходе клеток склада в фиксированном порядке, пока для каждого типа предмета не будет достигнут общий лимит. Считаются все штуки на складе, включая единичные предметы и с максимальным стаком равным 1 (оружие, одежда).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Режим 2 — Сначала то, чего больше: перед сбросом один раз определяется, каких предметов на складе больше всего; сначала полностью обрабатывается тип с наибольшим количеством, затем со вторым по количеству и т.д. Без повторной пересортировки во время сброса.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Режим 3 — Сначала то, чего меньше: сначала выбрасываются единичные предметы и с максимальным стаком равным 1 (оружие, одежда и т.п.), затем стакающиеся ресурсы — от типа с наименьшим количеством на складе к наибольшему; внутри типа — сначала самые маленькие стаки.</ZoneWideCascadeEjectMode3Tooltip>
+
+  <DelayedZoneOverflowEject>Отложенный сброс переполнения склада</DelayedZoneOverflowEject>
+  <DelayedZoneOverflowEjectDisabledTooltip>Отключить отложенную очистку после того, как пешка не смогла положить весь переносимый стак в склад или хранилище с лимитом.</DelayedZoneOverflowEjectDisabledTooltip>
+  <DelayedZoneOverflowEjectModeTooltip>Запустить отложенную очистку через {HOURS} игровых часов после того, как склад или хранилище с лимитом отклонило часть переносимого стака.</DelayedZoneOverflowEjectModeTooltip>
+
+  <MultistackDisabled>Мультистаки отключены</MultistackDisabled>
+  <MultistackModeDisabledTooltip>В одной клетке карты допускается только одна стопка.</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>Мультистаки включены глобально</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>Разрешить несколько стопок в одной клетке для всех хранилищ без отдельной настройки.</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>Мультистаки настраиваются отдельно</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>Для каждого хранилища можно отдельно разрешить или запретить несколько стопок в одной клетке.</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>Максимальное значение ползунка:</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>Цвет выделения изменённых лимитов:</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>Выберите цвет, которым будут отмечены лимиты, изменённые относительно стандартных значений.</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>Мультистак определяет, сколько отдельных стопок может находиться в одной клетке карты. Пользовательские хранилища могут поддерживать более одной стопки на клетку. Не влияет на неограниченные хранилища. Одинаковые предметы могут по-прежнему ограничиваться правилами лимитов.</MultistackInfo>
+</LanguageData>

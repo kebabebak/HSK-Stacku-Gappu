@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
+
+  <EnableHardEjection>Erzwungenes Auswerfen aktivieren</EnableHardEjection>
+  <EnableHardEjectionTooltip>Bei Aktivierung werden Gegenstände, die die konfigurierten Stapelbegrenzungen überschreiten, automatisch aus dem Lager auf den Boden geworfen.</EnableHardEjectionTooltip>
+
+  <DisplayLogFactorInfo>Der Schieberegler für Stapelbegrenzungen verwendet eine nichtlineare Skala zur einfacheren Einstellung. Erhöhen Sie den Wert, wenn modifizierte Stapel Tausende von Gegenständen speichern können (Standard: 3.0).</DisplayLogFactorInfo>
+  <DisplayLogFactor>Skalenmodifikator</DisplayLogFactor>
+  <DisplayLogFactorExample>Vorschau des Skalenmodifikators:</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(dieser Schieberegler hat keinen Spieleffekt)</DisplayLogFactorExampleNote>
+
+  <PressIfStackSizeChangedRuntime>Stapelgrenzen nach Laufzeitänderungen neu berechnen</PressIfStackSizeChangedRuntime>
+
+  <PercentageMode>Prozente statt Stückzahl verwenden</PercentageMode>
+  <EnableSimilarStackLimits>Limit für ähnliche Stapel aktivieren</EnableSimilarStackLimits>
+  <EnableLogging>Protokollierung aktivieren</EnableLogging>
+
+  <ZoneWideCascadeEject>Auswurf bei Gesamtlagerlimit</ZoneWideCascadeEject>
+  <ZoneWideCascadeEjectDisabledTooltip>Erzwungenen Auswurf bei Änderung des Gesamtlagerlimits deaktivieren.</ZoneWideCascadeEjectDisabledTooltip>
+  <ZoneWideCascadeEjectMode1Tooltip>Modus 1 — Zellenreihenfolge: Überschuss wird beim Durchlaufen der Lagerzellen in fester Reihenfolge ausgeworfen, bis jeder Gegenstandstyp das Zonenlimit erreicht. Alle Stückzahlen zählen, einschließlich einzelner Gegenstände mit maximaler Stapelgröße gleich 1 (Waffen, Kleidung).</ZoneWideCascadeEjectMode1Tooltip>
+  <ZoneWideCascadeEjectMode2Tooltip>Modus 2 — Zuerst die größte Menge: Vor dem Auswurf wird einmalig ermittelt, welche Gegenstände am meisten lagern; zuerst wird der Typ mit der größten Lagermenge vollständig verarbeitet, dann der zweitgrößte usw. Keine erneute Sortierung während des Auswurfs.</ZoneWideCascadeEjectMode2Tooltip>
+  <ZoneWideCascadeEjectMode3Tooltip>Modus 3 — Zuerst die kleinste Menge: Zuerst werden einzelne Gegenstände mit maximaler Stapelgröße gleich 1 ausgeworfen (Waffen, Kleidung usw.), danach stapelbare Ressourcen — vom Typ mit der geringsten bis zur größten Lagermenge; innerhalb eines Typs zuerst die kleinsten Stapel.</ZoneWideCascadeEjectMode3Tooltip>
+
+  <DelayedZoneOverflowEject>Verzögerter Überlauf-Auswurf</DelayedZoneOverflowEject>
+  <DelayedZoneOverflowEjectDisabledTooltip>Verzögerte Bereinigung deaktivieren, nachdem eine Kolonie nicht den gesamten getragenen Stapel in ein begrenztes Lager oder Lagergebäude legen konnte.</DelayedZoneOverflowEjectDisabledTooltip>
+  <DelayedZoneOverflowEjectModeTooltip>Verzögerte Bereinigung {HOURS} Spielstunde(n) nach dem Ablehnen eines Teils des getragenen Stapels durch ein begrenztes Lager oder Lagergebäude starten.</DelayedZoneOverflowEjectModeTooltip>
+
+  <MultistackDisabled>Multistapel deaktiviert</MultistackDisabled>
+  <MultistackModeDisabledTooltip>Nur ein Stapel pro Karte-Zelle.</MultistackModeDisabledTooltip>
+
+  <MultistackEnabledGlobal>Multistapel global aktiviert</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>Mehrere Stapel pro Zelle in allen Lagern ohne separate Konfiguration erlauben.</MultistackModeEnabledGlobalTooltip>
+
+  <MultistackEnabledPerStorage>Multistapel separat konfigurieren</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>Jedes Lager kann Multistapel einzeln erlauben oder verbieten.</MultistackModeEnabledPerStorageTooltip>
+
+  <LimitSliderMaxValue>Maximaler Schiebereglerwert:</LimitSliderMaxValue>
+
+  <ModifiedHighlightColorLabel>Farbe für geänderte Limits:</ModifiedHighlightColorLabel>
+  <ModifiedHighlightColorTooltip>Wählen Sie die Farbe, mit der von Standardwerten abweichende Stapelbegrenzungen markiert werden.</ModifiedHighlightColorTooltip>
+
+  <MultistackInfo>Multistapel legt fest, wie viele getrennte Stapel in einer Karte-Zelle liegen dürfen. Benutzerdefinierte Lagergebäude können mehr als einen Stapel pro Zelle zulassen. Gilt nicht für uneingeschränkte Lager. Gleiche Gegenstände können weiterhin durch Limitregeln eingeschränkt werden.</MultistackInfo>
+</LanguageData>

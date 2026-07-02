@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <GappuStackLimit>Limite de pile</GappuStackLimit>
+  <MultistackStorageTooltip>Autoriser plusieurs piles par case.\nLes objets identiques peuvent toujours être limités par les règles de limites.</MultistackStorageTooltip>
+  <SimilarStackLimit>Limite de piles similaires x{0}</SimilarStackLimit>
+  <SimilarStackLimitDisabled>Aucune limite de piles similaires</SimilarStackLimitDisabled>
+  <SimilarStackLimitDefault>Limite globale du stockage</SimilarStackLimitDefault>
+</LanguageData>
