@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <packageId>kebabebak.HSKStackuGappu</packageId>
+  <packageId>kebabebak.hskstackugappu</packageId>
   <name>HSK Stacku Gappu</name>
-  <modVersion>1.14</modVersion>
+  <modVersion>1.15</modVersion>
   <author>kebabebak</author>
   <supportedVersions>
     <li>1.4</li>
