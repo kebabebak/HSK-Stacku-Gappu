@@ -2,6 +2,9 @@
 <LanguageData>
   <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
 
+  <ResetSettings>重置设置</ResetSettings>
+  <ResetSettingsConfirm>将所有 HSK Stacku Gappu 设置恢复为默认值？</ResetSettingsConfirm>
+
   <EnableHardEjection>启用强制弹出物品</EnableHardEjection>
   <EnableHardEjectionTooltip>启用后，超出所配置堆叠限制的物品将自动从储存区弹出到地面。</EnableHardEjectionTooltip>
 
@@ -13,8 +16,12 @@
   <PressIfStackSizeChangedRuntime>运行时堆叠大小变更后重新计算</PressIfStackSizeChangedRuntime>
 
   <PercentageMode>使用百分比而非物品数量</PercentageMode>
-  <EnableSimilarStackLimits>启用相似堆叠限制</EnableSimilarStackLimits>
+  <EnableSimilarStackLimits>启用高级仓储分组模式</EnableSimilarStackLimits>
+  <EnableSimilarStackLimitsTooltip>在储存区设置中启用「仓库总限额」与「相似堆叠限制 xN」模式：限制按整个槽位组计算，而非单格。关闭后仅适用滑块的单格限制。</EnableSimilarStackLimitsTooltip>
   <EnableLogging>启用日志记录</EnableLogging>
+
+  <EnableNegativeSolveCache>启用跨游戏刻缓存（优化）</EnableNegativeSolveCache>
+  <EnableNegativeSolveCacheTooltip>在游戏刻之间记住存储组对某物品类型已满，并跳过大型满仓库的重复限制检查。若搬运行为异常请关闭。</EnableNegativeSolveCacheTooltip>
 
   <ZoneWideCascadeEject>仓库总限额时弹出</ZoneWideCascadeEject>
   <ZoneWideCascadeEjectDisabledTooltip>禁用更改仓库总限额时的强制弹出。</ZoneWideCascadeEjectDisabledTooltip>

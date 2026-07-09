@@ -2,6 +2,9 @@
 <LanguageData>
   <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
 
+  <ResetSettings>Réinitialiser les paramètres</ResetSettings>
+  <ResetSettingsConfirm>Réinitialiser tous les paramètres de HSK Stacku Gappu aux valeurs par défaut ?</ResetSettingsConfirm>
+
   <EnableHardEjection>Activer l'éjection forcée</EnableHardEjection>
   <EnableHardEjectionTooltip>Lorsqu'activé, les objets dépassant les limites de pile configurées sont automatiquement éjectés du stockage sur le sol.</EnableHardEjectionTooltip>
 
@@ -13,8 +16,12 @@
   <PressIfStackSizeChangedRuntime>Recalculer les limites après modification des piles</PressIfStackSizeChangedRuntime>
 
   <PercentageMode>Utiliser des pourcentages au lieu du nombre d'objets</PercentageMode>
-  <EnableSimilarStackLimits>Activer la limite de piles similaires</EnableSimilarStackLimits>
+  <EnableSimilarStackLimits>Activer les modes de stockage groupés avancés</EnableSimilarStackLimits>
+  <EnableSimilarStackLimitsTooltip>Rend disponibles dans les paramètres de stockage les modes « Limite globale du stockage » et « Limite de piles similaires xN » : la limite s'applique à tout le groupe de cases, et non par case. Lorsque désactivé, seule la limite par case du curseur s'applique.</EnableSimilarStackLimitsTooltip>
   <EnableLogging>Activer la journalisation</EnableLogging>
+
+  <EnableNegativeSolveCache>Activer la mémoire cache entre les ticks de jeu (Optimisation)</EnableNegativeSolveCache>
+  <EnableNegativeSolveCacheTooltip>Mémorise entre les ticks de jeu qu'un groupe de stockage est plein pour un type d'objet et évite les vérifications répétées de limite dans les grands entrepôts pleins. Désactiver en cas de comportement étrange du transport.</EnableNegativeSolveCacheTooltip>
 
   <ZoneWideCascadeEject>Éjection à la limite globale du stockage</ZoneWideCascadeEject>
   <ZoneWideCascadeEjectDisabledTooltip>Désactiver l'éjection forcée lors du changement de la limite globale du stockage.</ZoneWideCascadeEjectDisabledTooltip>

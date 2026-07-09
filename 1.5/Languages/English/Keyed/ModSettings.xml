@@ -2,6 +2,9 @@
 <LanguageData>
   <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
 
+  <ResetSettings>Reset settings</ResetSettings>
+  <ResetSettingsConfirm>Reset all HSK Stacku Gappu settings to their default values?</ResetSettingsConfirm>
+
   <EnableHardEjection>Enable forced item ejection</EnableHardEjection>
   <EnableHardEjectionTooltip>When enabled, items exceeding the configured stack limits are automatically ejected from storage onto the floor.</EnableHardEjectionTooltip>
 
@@ -13,8 +16,12 @@
   <PressIfStackSizeChangedRuntime>Recalculate stack limits after runtime stack size changes</PressIfStackSizeChangedRuntime>
 
   <PercentageMode>Use percentages instead of item counts</PercentageMode>
-  <EnableSimilarStackLimits>Enable similar stack limits</EnableSimilarStackLimits>
+  <EnableSimilarStackLimits>Enable advanced storage group modes</EnableSimilarStackLimits>
+  <EnableSimilarStackLimitsTooltip>Unlocks "Storage-wide limit" and "Similar stack limit xN" in storage settings, applying limits across the whole slot group instead of per cell. When off, only the slider's per-cell limit applies.</EnableSimilarStackLimitsTooltip>
   <EnableLogging>Enable logging</EnableLogging>
+
+  <EnableNegativeSolveCache>Enable cross-tick cache (Optimization)</EnableNegativeSolveCache>
+  <EnableNegativeSolveCacheTooltip>Remembers between game ticks that a storage group is full for an item type, and skips repeated limit checks on large full warehouses. Disable if hauling behaves strangely.</EnableNegativeSolveCacheTooltip>
 
   <ZoneWideCascadeEject>Eject on storage-wide limit</ZoneWideCascadeEject>
   <ZoneWideCascadeEjectDisabledTooltip>Disable forced ejection when the storage-wide limit changes.</ZoneWideCascadeEjectDisabledTooltip>

@@ -2,6 +2,9 @@
 <LanguageData>
   <GappuSettingsCategory>HSK Stacku Gappu</GappuSettingsCategory>
 
+  <ResetSettings>Einstellungen zurücksetzen</ResetSettings>
+  <ResetSettingsConfirm>Alle HSK-Stacku-Gappu-Einstellungen auf die Standardwerte zurücksetzen?</ResetSettingsConfirm>
+
   <EnableHardEjection>Erzwungenes Auswerfen aktivieren</EnableHardEjection>
   <EnableHardEjectionTooltip>Bei Aktivierung werden Gegenstände, die die konfigurierten Stapelbegrenzungen überschreiten, automatisch aus dem Lager auf den Boden geworfen.</EnableHardEjectionTooltip>
 
@@ -13,8 +16,12 @@
   <PressIfStackSizeChangedRuntime>Stapelgrenzen nach Laufzeitänderungen neu berechnen</PressIfStackSizeChangedRuntime>
 
   <PercentageMode>Prozente statt Stückzahl verwenden</PercentageMode>
-  <EnableSimilarStackLimits>Limit für ähnliche Stapel aktivieren</EnableSimilarStackLimits>
+  <EnableSimilarStackLimits>Erweiterte gruppenweite Lagermodi aktivieren</EnableSimilarStackLimits>
+  <EnableSimilarStackLimitsTooltip>Schaltet in den Lagereinstellungen die Modi „Gesamtlagerlimit“ und „Limit ähnlicher Stapel xN“ frei: Das Limit gilt für die gesamte Lagergruppe, nicht pro Zelle. Bei Deaktivierung gilt nur das zellenweise Limit des Schiebereglers.</EnableSimilarStackLimitsTooltip>
   <EnableLogging>Protokollierung aktivieren</EnableLogging>
+
+  <EnableNegativeSolveCache>Tick-übergreifenden Zwischenspeicher aktivieren (Optimierung)</EnableNegativeSolveCache>
+  <EnableNegativeSolveCacheTooltip>Merkt sich zwischen Spiel-Ticks, dass eine Lagergruppe für einen Gegenstandstyp voll ist, und überspringt wiederholte Limitprüfungen in großen vollen Lagern. Bei seltsamem Trageverhalten deaktivieren.</EnableNegativeSolveCacheTooltip>
 
   <ZoneWideCascadeEject>Auswurf bei Gesamtlagerlimit</ZoneWideCascadeEject>
   <ZoneWideCascadeEjectDisabledTooltip>Erzwungenen Auswurf bei Änderung des Gesamtlagerlimits deaktivieren.</ZoneWideCascadeEjectDisabledTooltip>
