@@ -9,7 +9,6 @@
     <li>1.5</li>
   </supportedVersions>
   <description>Advanced storage stack limit controls for RimWorld HSK.</description>
-  <modIconPath IgnoreIfNoMatchingField="True">StackuGappuModIcon</modIconPath>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
