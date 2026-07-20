@@ -2,13 +2,14 @@
 <ModMetaData>
   <packageId>kebabebak.hskstackugappu</packageId>
   <name>HSK Stacku Gappu</name>
-  <modVersion>1.19</modVersion>
+  <modVersion>1.20</modVersion>
   <author>kebabebak</author>
   <supportedVersions>
     <li>1.4</li>
     <li>1.5</li>
   </supportedVersions>
   <description>Advanced storage stack limit controls for RimWorld HSK.</description>
+  <modIconPath IgnoreIfNoMatchingField="True">StackuGappuModIcon</modIconPath>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
